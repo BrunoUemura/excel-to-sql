@@ -1,0 +1,3 @@
+INSERT INTO Users ('name','email','age','occupation') VALUES ('Bruno Uemura','bruno.uemura@gmail.com','23','Software Engineer');
+INSERT INTO Users ('name','email','age','occupation') VALUES ('Carla Uemura','carla.uemura@gmail.com','44','Lawyer');
+INSERT INTO Users ('name','email','age','occupation') VALUES ('Anderson Uemura','anderson.uemura@gmail.com','43','Manager');
