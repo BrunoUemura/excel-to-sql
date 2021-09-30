@@ -6,16 +6,16 @@ Convert Excel sheet to SQL Insert Query
 
 Create virtual environment:
 
-    ```bash
-    virtualenv venv
-    source venv/Scripts/activate
-    ```
+```bash
+virtualenv venv
+source venv/Scripts/activate
+```
 
 Install the dependencies
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 Add a `.xlsx` file in `input` directory with the following structure: \
 row 1: Table name \
@@ -27,9 +27,9 @@ row >= 3: Data to insert \
 
 After the `Setup` process is done, run the `main.py` script.
 
-    ```bash
-    python main.py
-    ```
+```bash
+python main.py
+```
 
 The script will generate a `.txt` file in `output` directory with the SQL Insert query according to `.xlsx` file added in `input` directory.
 
